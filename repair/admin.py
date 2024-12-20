@@ -1,5 +1,4 @@
 from django.contrib import admin
-
 from accounts.models import Role
 from .models import Appliance, Ticket, Comment
 

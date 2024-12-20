@@ -7,6 +7,7 @@ class Role(models.TextChoices):
     CLIENT = 'client', 'Клиент'
     MASTER = 'master', 'Мастер'
     OPERATOR = 'operator', 'Оператор'
+    MANAGER = 'manager', 'Менеджер'
 
 
 class User(AbstractUser):
